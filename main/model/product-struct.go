@@ -1,8 +1,8 @@
 package model
 
-type productStruct struct {
-	name     string
-	barcode  int64
-	category string
-	brand    string
+type ProductStruct struct {
+	Name     string `json:"name"`
+	Barcode  int64  `json:"barcode"`
+	Category string `json:"category"`
+	Brand    string `json:"brand"`
 }
