@@ -1,7 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"example/products-service/main/routes"
+	"fmt"
+)
 
 func main() {
 	fmt.Printf("Hello, World!")
+
+	routes.Routes()
 }
